@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <head>
+        <link rel="stylesheet" href="./travel.css">
+       <title>TravelBloom - Travel Recommendations</title> 
+    </head>
+    <body>
+        
+        <!--NAVBAR --><div>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <!-- Contenido de la parte izquierda (logo, por ejemplo) -->
+                <h1>TravelBloom</h1>
+            </div>
+            <div class="navbar-center">
+            <!-- Contenido de la parte central (enlaces de navegación) --> <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <!-- Contenido de la parte derecha (iconos, botones, etc.) -->
+             <form id="searchForm" type="search">
+                 <input type="search" id="searchInput" placeholder="Search">   
+             <button id="btnSearch" class="btn">Search</button>
+             <button id="btnreset" class="btn">Reset</button>   
+             </form>
+            </div>
+        </nav>
+        </div>
+        
+       <div class="container">
+       <div><ul class="social" style="list-style:none">
+            <li><a href="http://www.instagram.com"><img src="./insta.png" width="40" height="40"></img></a></li>
+            <li><a href="http://www facebook.com"><img src="./face.png" width="40" height="40"></img></a></li>
+            <li><a href="http://www.pinterst.com"><img src="./pin.png" width="40" height="40"></img></a></li>
+        </ul></div>
+        <!-- Content --> <div>
+            <p class="welcome">
+                <h1>
+                Welcome to TravelBloom!</h1> <br>
+               <h3>Your best friend for planning <br> your next trip</h3>
+            </p>
+        </div>
+    <div id="result" class="direita"></div>
+</div>
+<script src="travel.js"></script>
+    </body>
+</html>

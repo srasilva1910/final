@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="./travel.css">
+       <title>Go! Contact</title> 
+    </head>
+    <body>
+        
+        <!--NAVBAR --><div>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <!-- Contenido de la parte izquierda (logo, por ejemplo) -->
+                <h1>Go!</h1>
+            </div>
+            <div class="navbar-center">
+            <!-- Contenido de la parte central (enlaces de navegación) --> <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <!-- Contenido de la parte derecha (iconos, botones, etc.) -->
+             <form id="search" type="search">
+                 <input type="search" name="search" id="srcinp" placeholder="Search">   
+             <button class="btn">Search</button>
+             <button class="btn">Reset</button>   
+             </form>
+            </div>
+        </nav>
+        </div>
+        
+       <div class="container">
+            <div><ul class="social" style="list-style:none">
+                <li><a href="http://www.instagram.com"><img src="./insta.png" width="40" height="40"></img></a></li>
+                <li><a href="http://www facebook.com"><img src="./face.png" width="40" height="40"></img></a></li>
+                <li><a href="http://www.pinterst.com"><img src="./pin.png" width="40" height="40"></img></a></li>
+                </ul>
+            </div>
+        <!-- Content --> 
+            <div>
+                <p class="welcome">
+                    <h1>
+                    Contact</h1>
+                 <form action="#" method="POST">
+                    <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="email">E-mail:</label> <input type="email" id="email" name="email" required>
+                    </div> 
+                    <div class="form-group"> <label for="message">Message:</label> <textarea id="message" name="message" rows="5" required></textarea> </div> 
+                    <button type="submit" class="submit-button">Send</button> 
+                </form>
+                </p>
+            </div>
+            
+            <div id="result" class="direita"></div>
+       </div>
+    </body>
+</html>
