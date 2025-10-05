@@ -91,7 +91,7 @@ background-color: #F9F3F6; /* Color de fondo más oscuro al hacer hover */
 body{
     background-color:#f0f0f0;
     background-image: 
-    linear-gradient(to right, #f0f0f0 10%, transparent), url(./img/bg.jpg);
+    linear-gradient(to right, #f0f0f0 10%, transparent), url(./bg.jpg);
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;    
     /*background-size: 700px;*/
